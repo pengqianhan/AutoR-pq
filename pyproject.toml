@@ -1,0 +1,17 @@
+[project]
+name = "autor"
+version = "0.1.0"
+description = "AutoR research workflow runner"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+diagram = [
+  "google-genai",
+  "PyYAML",
+  "Pillow",
+]
+
+[tool.uv]
+package = false
