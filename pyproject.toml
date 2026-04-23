@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "AutoR research workflow runner"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+  "PyMuPDF",
+]
 
 [project.optional-dependencies]
 diagram = [

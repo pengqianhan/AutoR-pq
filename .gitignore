@@ -6,6 +6,7 @@ runs/
 AGENTS.md
 .codex
 .autor/
+.venv/
 configs/diagram_config.yaml
 docs/
 !docs/
